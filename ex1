@@ -1,0 +1,12 @@
+How to split a Java String into tokens with StringTokenizer?
+import java.util.*;
+public class StringTokenizerDemo {
+   public static void main(String[] args) {
+      // creating string tokenizer
+      StringTokenizer st = new StringTokenizer("Hello ishwarya sekar");
+      // checking elements
+      while (st.hasMoreElements()) {
+         System.out.println("Next element : " + st.nextElement());
+      }
+   }
+}
